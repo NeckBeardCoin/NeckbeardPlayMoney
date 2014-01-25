@@ -1091,39 +1091,39 @@ int64 static GetBlockValue(int nHeight, int64 nFees, unsigned int nBits)
     
     int64 nSubsidy = 5 * COIN;
 
-if(nHeight < 500)
+if(nHeight < 5000)
     {
         nSubsidy = 0.05 * COIN;
     }
-else if(nHeight < 1000)
+else if(nHeight < 10000)
     {
         nSubsidy = 0.1 * COIN;
     }
-else if(nHeight < 1500)
+else if(nHeight < 15000)
     {
         nSubsidy = 0.25 * COIN;
     }
-else if(nHeight < 2000)
+else if(nHeight < 20000)
     {
         nSubsidy = 0.5 * COIN;
     }
-else if(nHeight < 2500)
+else if(nHeight < 25000)
     {
         nSubsidy = 1 * COIN;
     }
-else if(nHeight < 3000)
+else if(nHeight < 30000)
     {
         nSubsidy = 2 * COIN;
     }
-else if(nHeight < 3500)
+else if(nHeight < 35000)
     {
         nSubsidy = 3 * COIN;
     }
-else if(nHeight < 4000)
+else if(nHeight < 40000)
     {
         nSubsidy = 3.75 * COIN;
     }
-else if(nHeight < 4500)
+else if(nHeight < 45000)
     {
         nSubsidy = 4.5 * COIN;
     }
